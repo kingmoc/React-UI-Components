@@ -11,8 +11,10 @@ const HeaderContainer = () => {
 		<header className="headerContainer"> 
 
 			<ImageThumbnail />
-			<HeaderTitle />
-			<HeaderContent />
+			<div className="body">
+				<HeaderTitle />
+				<HeaderContent />
+			</div>
 			
 		</header>
 		

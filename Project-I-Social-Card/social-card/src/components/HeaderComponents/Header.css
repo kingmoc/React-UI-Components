@@ -1,5 +1,32 @@
 /* All styles for your header Components live here */
 
-/* p {
-	color: lightgray;
-} */
+.headerContainer {
+	display: flex;
+}
+
+.title {
+	margin-top: 10px;
+	display: flex;
+	align-items: baseline;
+}
+
+.title h4 {
+	margin: 0 10px;
+	margin-left: 0;
+}
+
+.title p {
+	display: flex;
+	color: gray;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+span {
+	margin-left: 5px;
+}
+
+.logo img {
+	width: 68px;
+    height: 73px;
+}
