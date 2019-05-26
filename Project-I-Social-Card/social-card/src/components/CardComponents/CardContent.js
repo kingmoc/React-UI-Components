@@ -13,6 +13,6 @@ const CardContent = () => {
 
 const CardTitle = () => <h4>Get started with React</h4>
 const Copy = () => <p>React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
-const Link = () => <p>reactjs.org</p>
+const Link = () => <p className="link">reactjs.org</p>
 
 export default CardContent 

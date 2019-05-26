@@ -4,8 +4,11 @@
 	display: flex;
 }
 
-.title {
-	margin-top: 10px;
+.body {
+	margin-left: 10px;
+}
+
+.title {	
 	display: flex;
 	align-items: baseline;
 }
@@ -26,7 +29,12 @@ span {
 	margin-left: 5px;
 }
 
-.logo img {
+.logo {
 	width: 68px;
     height: 73px;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
 }

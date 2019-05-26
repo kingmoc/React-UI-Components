@@ -4,5 +4,6 @@
 */
 
 .container {
-  border: red solid 2px;
+  /* border: red solid 2px; */
+  margin: 0 130px;
 }

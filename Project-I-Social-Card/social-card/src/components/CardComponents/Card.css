@@ -1,1 +1,23 @@
 /* All styles for your Card Components live here */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.cardContainer {
+	/* max-width: 504px; */
+	height: auto;
+	border: lightgray solid 1px;
+	width: 90%;
+    margin-left: 35px;
+}
+
+.content {
+	padding: 0 1.5rem;
+	width: 75%;
+}
+
+.content p.link {
+	color: grey;
+}
