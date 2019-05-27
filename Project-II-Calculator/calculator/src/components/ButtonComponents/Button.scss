@@ -1,0 +1,34 @@
+.default {
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	border: lightgray solid 1px;
+	font-size: 35px;
+	padding: 0px;
+	
+}
+
+.numbers {
+	// border: red solid 2px;
+	width: 70%;
+	display: flex;
+	flex-flow: wrap-reverse;
+	align-content: baseline;
+}
+
+.clearZero {
+	width: 300px;
+	height: 100px;
+	background-color: white;
+	font-size: 35px;
+	border: lightgray solid 1px;
+}
+
+.action {
+	background-color: #a0001e;
+	width: 100px;
+	height: 100px;
+	color: white;
+	font-size: 45px;
+
+}
