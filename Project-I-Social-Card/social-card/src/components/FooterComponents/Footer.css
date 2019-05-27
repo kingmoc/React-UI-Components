@@ -1,0 +1,23 @@
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
+}
+
+.far {
+	color: lightgray;
+	padding: 0 6px;
+}
+
+.fas {
+	color: lightgray;
+	padding: 0 6px;
+}
+
+.like span {
+	color: #4b4b4b;
+}
+
+.share span {
+	color: #4b4b4b;
+}
