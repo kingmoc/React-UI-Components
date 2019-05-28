@@ -1,17 +1,13 @@
 import React from 'react';
 import './Button.scss';
 
-const NumberButton = props => {
-	return (
-		<button className={`${props.buttonStyles}`}>{props.text}</button>
-	)
-}
-
-NumberButton.defaultProps = {
-	buttonStyles: 'default',	
-}
-
 const Numbers = () => {
+
+	NumberButton.defaultProps = {
+		buttonStyles: 'default',
+		// alertMs: () => alert("This click works")
+	}
+	
 	return (
 		<div className="numbers">
 			<NumberButton buttonStyles="clearZero" text="0"/>
@@ -28,5 +24,20 @@ const Numbers = () => {
 		</div>
 	)
 }
+
+const NumberButton = (props) => {
+	console.log(props)
+
+let alertMs = () => alert("This click works")
+
+
+
+	return (
+		<button onClick={alertMs} className={`${props.buttonStyles}`}>{props.text}</button>
+	)
+}
+
+
+
 
 export default Numbers
